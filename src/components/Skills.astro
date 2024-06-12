@@ -1,5 +1,6 @@
 ---
 import GitHub from "./icons/GitHub.astro"
+import Git from "./icons/Git.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Node from "./icons/Node.astro"
@@ -9,63 +10,109 @@ import HTML from "./icons/HTML.astro"
 import CSS from "./icons/CSS.astro"
 import MongoDB from "./icons/MongoDB.astro"
 import Bootstrap from "./icons/Bootstrap.astro"
+import React from "./icons/React.astro"
 import Sass from "./icons/Sass.astro"
+import AWS from "./icons/AWS.astro"
+import TypeScript from "./icons/TypeScript.astro"
+import Vite from "./icons/Vite.astro"
+import Vitest from "./icons/Vitest.astro"
+import GCP from "./icons/GCP.astro"
 
 const TAGS = {
   NEXT: {
     name: "Next.js",
-    class: "bg-[#003159] text-white",
+    class: "bg-black text-white",
     icon: NextJS,
   },
   TAILWIND: {
     name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#21618C] text-white",
     icon: Tailwind,
   },
   NODE: {
     name: "Node Js",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#0B5345] text-white",
     icon: Node,
   },
   EXPRESS:{
     name: "Express Js",
-    class: "bg-[#003159] text-white",
+    class: "bg-black text-white",
     icon: Express,
   },
   JAVASCRIPT:{
     name: "JavaScript",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#FCF3CF] text-black",
     icon: JavaScript,
   },
   HTML:{
     name: "HTML",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#FAD7A0] text-black",
     icon: HTML,
   },
   BOOTSTRAP:{
     name: "Bootstrap",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#BB8FCE] text-white",
     icon: Bootstrap,
   },
   CSS:{
     name: "CSS",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#AED6F1] text-black",
     icon: CSS,
   },
   MONGODB:{
     name: "MongoDB",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#D5F5E3] text-black",
     icon: MongoDB,
   },
   SASS:{
     name: "Sass",
-    class: "bg-[#003159] text-white",
+    class: "bg-[#EBDEF0] text-black",
     icon: Sass,
+  },
+  REACT:{
+    name: "React",
+    class: "bg-[#1A5276] text-white",
+    icon: React,
+  },
+  AWS:{
+    name: "Amazon Web Services",
+    class: "bg-[#F4F6F6] text-black",
+    icon: AWS,
+  },
+  TYPESCRIPT:{
+    name: "TypeScript",
+    class: "bg-[#003159] text-white",
+    icon: TypeScript,
+  },
+  GIT:{
+    name: "Git",
+    class: "bg-[#F6DDCC] text-black",
+    icon: Git,
+  },
+  GITHUB:{
+    name: "GitHub",
+    class: "bg-black text-white",
+    icon: GitHub,
+  },
+  VITE:{
+    name: "Vite",
+    class: "bg-black text-white",
+    icon: Vite,
+  },
+  VITEST:{
+    name: "Vitest",
+    class: "bg-[#0B5345] text-white",
+    icon: Vitest,
+  },
+  GCP:{
+    name: "Google Cloud Platform",
+    class: "bg-[#F7F9F9] text-black",
+    icon: GCP,
   },
 }
 const SKILLS = [
   {
-    tags: [TAGS.JAVASCRIPT, TAGS.NEXT, TAGS.TAILWIND, TAGS.NODE, TAGS.EXPRESS,TAGS.MONGODB, TAGS.HTML, TAGS.BOOTSTRAP, TAGS.CSS, TAGS.SASS],
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.TAILWIND, TAGS.SASS, TAGS.BOOTSTRAP, TAGS.JAVASCRIPT, TAGS.TYPESCRIPT, TAGS.REACT, TAGS.NEXT, TAGS.NODE, TAGS.EXPRESS,TAGS.MONGODB, TAGS.GIT, TAGS.GITHUB, TAGS.VITE, TAGS.VITEST, TAGS.GCP, TAGS.AWS],
   },
 ]
 ---
